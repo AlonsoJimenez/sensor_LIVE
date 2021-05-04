@@ -48,7 +48,7 @@ void loop() {
     HTTPClient https;
 
     Serial.print("[HTTPS] begin...\n");
-    if (https.begin(*client, "https://jigsaw.w3.org/HTTP/connection.html")) {  // HTTPS
+    if (https.begin(*client, "https://live-cargador.uc.r.appspot.com/getNetwork")) {  // HTTPS
 
       Serial.print("[HTTPS] GET...\n");
       // start connection and send HTTP header
